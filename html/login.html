@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/login.js"></script>
+    
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body >
+    <div class="main"> 
+        <h1>Login Page</h1>
+        <form  method="post" action="../html/registration.html">
+            <table>
+                <tr>
+                    <th class="col1tr">User Name</th>
+                    <th class="col2tr"> <input type="text" id="username" placeholder="User Name" required="true"></th>
+                </tr>
+                <tr>
+                    <th class="col1tr">Password</th>
+                    <td class="col2tr"><input type="password" id="password" placeholder="Password" minlength="8"></td>
+                </tr>
+                <tr>
+                    <th class="col1tr"></th>
+                    <td class="col2tr">
+                        <input type="button" id="login" value="login">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+   
+</body>
+</html>

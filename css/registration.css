@@ -1,0 +1,43 @@
+.col1tr{
+    border: 1px solid cadetblue;
+    padding: 8px;
+    width: 300px;
+    text-align: left;
+    background-image: url(../css/images\ \(1\).jpeg);
+}
+
+.col2tr{
+    border: 1px solid cadetblue;
+    padding: 8px;
+    width: 250px;
+    background-image: url(../css/images\ \(1\).jpeg);
+}
+
+.textarea{
+width: 100%;
+height: 100px;
+box-sizing: border-box;
+border: 1px solid navy;
+}
+
+h1{
+    text-align: center;
+    background-image: url(../css/images\ \(1\).jpeg);
+    width: 600px;
+    margin-left: 370px;
+}
+
+table{
+    margin-left: 375px;
+    align-content: center;
+    border: 1px solid navy;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+.main{
+    background-image: url(../css/16888303-bluish-circles-on-white-rays-of-light-and-bluish-background.webp);
+    background-size: 1500px;
+    height: 900px;
+}
